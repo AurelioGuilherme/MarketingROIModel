@@ -12,8 +12,8 @@ st.set_page_config(layout="wide")
 st.title("MarketingROIModel")
 
 # Load CSV from Data folder
-data_path = os.path.join("../Data", "MKT.csv")
-data = pd.read_csv(data_path)
+#data_path = os.path.join("../Data", "MKT.csv")
+data = pd.read_csv("../Data/MKT.csv")
 target = "sales"
 # Select features
 features = st.multiselect("Selecione as features para o modelo:", 
