@@ -63,6 +63,9 @@ O projeto seguiu as etapas abaixo:
 - Criação em uma aplicação usando o Streamlit para a criação de um modelo interativo.
 - Aplicação permite simular o retorno em vendas conforme o investimento em publicidade.
 
+abaixo está a visualização da aplicação Streamlit:
+![mktroimodel](mktroimodel.png)
+
 
 ## Como Reproduzir
 1. Clone este repositório:
@@ -75,9 +78,10 @@ O projeto seguiu as etapas abaixo:
    ```
 3. Execute o aplicativo Streamlit:
    ```bash
-   cd app
    streamlit run app.py
    ```
+4. Acesse a aplicação diretamente através do link de deploy no Streamlit Cloud: [Marketing ROI Model](https://marketingroimodell.streamlit.app/).
+
 5. (Opcional) Explore o notebook `mkt_model.ipynb` para uma análise detalhada.
 
 ## Contribuições
